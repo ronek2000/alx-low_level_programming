@@ -1,2 +1,4 @@
-#!/bin/bash 
+export CFILE=0-main.c
 gcc -S -masm=intel $CFILE
+./100-intel < 0-main.s
+
